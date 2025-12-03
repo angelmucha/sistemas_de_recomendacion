@@ -603,7 +603,7 @@ if __name__ == "__main__":
     
     # Configuración
     scraper = MathProblemScraperMulti(
-        mongodb_uri="mongodb+srv://angelmucha_db_user:yjA0xEU9MgDpxEnD@cluster18.gpivg1d.mongodb.net/",
+        mongodb_uri="mongodb+srv://angelmucha_db_user:xxxxxx@cluster18.gpivg1d.mongodb.net/",
         headless=True,
         num_operaciones=10  # ¡AHORA CON 10 OPERACIONES!
     )
@@ -653,3 +653,4 @@ if __name__ == "__main__":
         scraper.cerrar()
 
         print("\n👋 Proceso finalizado")
+

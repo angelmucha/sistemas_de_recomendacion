@@ -10,7 +10,7 @@ import re
 import certifi
 
 class MathProblemScraperMulti:
-    def __init__(self, mongodb_uri: str = "mongodb+srv://angelmucha_db_user:yjA0xEU9MgDpxEnD@cluster18.gpivg1d.mongodb.net/", headless: bool = True, num_operaciones: int = 10):
+    def __init__(self, mongodb_uri: str = "mongodb+srv://angelmucha_db_user:xxxxxxxxx@cluster18.gpivg1d.mongodb.net/", headless: bool = True, num_operaciones: int = 10):
         """
         Inicializa el scraper con Selenium y la conexión a MongoDB
         
@@ -651,4 +651,5 @@ if __name__ == "__main__":
     
     finally:
         scraper.cerrar()
+
         print("\n👋 Proceso finalizado")
